@@ -18,8 +18,8 @@ phases:
     commands:
       - echo Testing...
       - yarn test
-      - echo Building...
-      - yarn build
+      # - echo Building...
+      # - yarn build
 artifacts:
   files:
     - "**/*"
